@@ -1,0 +1,5 @@
+CREATE TABLE estoque (
+  id TEXT PRIMARY KEY UNIQUE NOT NULL,
+  name TEXT NOT NULL,
+  prince_in_cents INT NOT NULL
+);
